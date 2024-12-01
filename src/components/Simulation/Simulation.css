@@ -1,0 +1,18 @@
+.Simulation-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Simulation-instructions {
+    text-align: center;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+    color: white;
+}
+
+.Simulation-canvas {
+    width: 40vw;
+    height: 40vw;
+    image-rendering: pixelated;
+}

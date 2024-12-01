@@ -1,0 +1,65 @@
+.SideBar-container {
+    height: full;
+    width: 30vw;
+    background-color: black;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.SideBar-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #FFBD00;
+}
+
+.SideBar-description {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.SideBar-input {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SideBar-input input {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    flex-grow: 1;
+    font-size: 0.9rem;
+}
+
+.SideBar-input input:focus {
+    outline: 4px solid #FFBD00;
+}
+
+.SideBar-input button {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    background-color: #FFBD00;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.SideBar-input button:hover {
+    background-color: #FF5400;
+}
+
+.SideBar-rules {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    font-size: 0.9rem;
+}
+
+.SideBar-rule {
+    margin-left: 2rem;
+}
